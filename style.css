@@ -1,0 +1,40 @@
+#cover{
+         height:300px;
+         width: 230px;
+      }
+      .row{
+         display: flex;
+      }
+
+      button {
+         padding: 25px 25px;
+         cursor: pointer;
+         color: lightpink;
+         background-color: lightpink;
+         border: none;
+         border-radius: 25px;
+         box-shadow: 0 10px hotpink;
+      }
+
+      button:hover {background-color: dimgrey;}
+
+      button:active {
+         background-color: black;
+         box-shadow: 0 5px deeppink;
+         transform: translateY(4px);
+      }
+      h1{
+         background-color: hotpink;
+         width: 930px;
+         font-family: sans-serif;
+         margin-top:150px;
+      }
+      #Grade1, #Grade2, #Grade3{
+         background-color: dimgrey;
+         font-size: 40px;
+         text-align: center;
+         color: deeppink;
+         width: 260px;
+         font-family: sans-serif;
+         text-decoration: underline;
+      }
